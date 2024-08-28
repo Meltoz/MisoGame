@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       container:{
         center: true,
-        padding: '5vw'
+        padding: '8vw'
       },
       spacing: {
         '54': '13.5rem',

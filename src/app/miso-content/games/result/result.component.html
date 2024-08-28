@@ -1,0 +1,18 @@
+<section class="flex items-center">
+  <img src="img/games/polygon.png"/>
+  <div class="flex justify-evenly flex-wrap my-10 gap-10">
+    @for(game of games; track game) {
+      <div class="relative">
+        <img src="img/games/{{game.img}}.jpg" class="max-h-[305px]" />
+
+        <div class="absolute bg-gradient-to-b from-charcoal/80 from-5% to-charcoal/40 pb-10 z-10 top-[218px] text-beige w-full">
+          <p class="uppercase text-lg px-0.5">{{game.title}}</p>
+          <p class="uppercase text-sm px-1">{{game.release}}</p>
+        </div>
+
+      </div>
+    }
+  </div>
+  <img src="img/games/polygon.png" class="rotate-180"/>
+</section>
+
