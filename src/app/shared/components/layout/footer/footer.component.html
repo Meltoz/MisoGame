@@ -1,0 +1,19 @@
+<footer class="py-10 bg-gradient-to-b from-charcoal/40 from-5% to-mediumWhite/40 to-60% space-y-10">
+
+  <div class="flex justify-center gap-5">
+    @for(social of rs; track social) {
+      <img src="img/rs/{{social}}.svg" class="h-10"/>
+    }
+  </div>
+
+  <div class="flex justify-center gap-8 text-black text-mediumBlack text-2xl font-semibold">
+    @for(item of menuItems; track item) {
+      <p class="uppercase">{{item.name}}</p>
+    }
+  </div>
+  <div class="space-y-4 mb-12 text-sm">
+    <p class="text-center">Legal Notice - Privacy Policy - Cookie Policy - Disclaimer</p>
+    <p class="text-center">&copy; 2024 MisoGame - All rights reserved</p>
+  </div>
+
+</footer>
