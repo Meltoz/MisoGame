@@ -1,0 +1,4 @@
+.card-game{
+  backdrop-filter: blur(2px);
+  box-shadow: -2px 11px 121px -34px rgba(0,0,0,0.81) inset;
+}

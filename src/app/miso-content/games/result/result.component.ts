@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './result.component.html',
+  styleUrl: './result.component.css',
 })
 export class ResultComponent {
   protected games = [{

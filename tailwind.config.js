@@ -24,6 +24,11 @@ module.exports = {
         beige: '#F5F5F5',
         violisia: '#8A2BE2',
         mediumBlack: '#1E1E1E'
+      },
+      fontFamily: {
+        Roboto: 'Roboto',
+        bebas: 'Bebas',
+        openSans: 'OpenSans'
       }
     },
   },

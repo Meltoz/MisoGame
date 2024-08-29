@@ -1,0 +1,23 @@
+.card-wow::after {
+  content: "Wow: The War Within";
+}
+
+.card-black::after {
+  content: 'Black Myth: Wukong'
+}
+
+.card-inzoi::after {
+  content: 'Inzoi - KRAFTON'
+}
+
+.card-starwars::after {
+  content: 'Star Wars Outlaws'
+}
+
+.card::after {
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  width: 100%;;
+  color: white;
+}
